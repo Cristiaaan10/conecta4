@@ -1,16 +1,16 @@
-import java.util.Scanner;
+
 
 public class Jugador {
 
-    private Scanner nombre;
+    private String nombre;
     private String simbolo;
 
-    public Jugador(Scanner nombre, String simbolo){
-        this.nombre = nombre;
-        this.simbolo = simbolo;
+    public Jugador(String nombre, String simbolo){
+        this.nombre = " ";
+        this.simbolo = " ";
     }
 
-    public Scanner getNombre() {
+    public String getNombre() {
         return nombre;
     }
 

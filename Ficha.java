@@ -3,9 +3,10 @@ public class Ficha {
 
     private char ficha ;
 
-    public Ficha(){
+    public Ficha(char ficha){
 
         this.ficha = ficha;
+
     }
 
 
